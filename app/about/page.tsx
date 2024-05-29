@@ -4,7 +4,7 @@ import { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "About Us",
-  description: "Information about me",
+  description: "Information about Us",
 };
 
 export default async function AboutPage() {
@@ -28,13 +28,13 @@ export default async function AboutPage() {
             {siteConfig.author}
           </h2>
           <p className="text-muted-foreground text-center break-words">
-            Positive Vibes Only.
+            Positive Vibes Only
           </p>
         </div>
         <p className="text-muted-foreground text-lg py-4">
           Are you tired of being held back by negative thoughts and emotions? Do
           you want to surround yourself with Positive Vibes Only and live a life
-          of purpose and inspiration? Then you're in the right place! Our blog
+          of purpose and inspiration? Then you are in the right place! Our blog
           is dedicated to helping you break free from the chains of negativity
           and tap into the power of Positive Energy.
         </p>
