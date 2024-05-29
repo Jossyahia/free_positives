@@ -15,7 +15,7 @@ export default function Home() {
             Welcome To Free Positives
           </h1>
           <p className="max-w-[42rem] mx-auto text-muted-foreground sm:text-xl text-balance">
-            "Your Daily Dose of Positive Energy and Inspiration"
+            Your Daily Dose of Positive Energy and Inspiration
           </p>
           <div className="flex flex-col gap-4 justify-center sm:flex-row">
             <Link
