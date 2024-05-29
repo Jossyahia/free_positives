@@ -13,7 +13,7 @@ export default async function AboutPage() {
       <div className="flex flex-col items-start gap-4 md:flex-row md:justify-between md:gap-8">
         <div className="flex-1 space-x-4">
           <h1 className="inline-block font-black text-4xl lg:text-5xl">
-            About Me
+            About Us
           </h1>
         </div>
       </div>
@@ -28,11 +28,15 @@ export default async function AboutPage() {
             {siteConfig.author}
           </h2>
           <p className="text-muted-foreground text-center break-words">
-            Everthing Logistics
+            Positive Vibes Only.
           </p>
         </div>
         <p className="text-muted-foreground text-lg py-4">
-          
+          Are you tired of being held back by negative thoughts and emotions? Do
+          you want to surround yourself with Positive Vibes Only and live a life
+          of purpose and inspiration? Then you're in the right place! Our blog
+          is dedicated to helping you break free from the chains of negativity
+          and tap into the power of Positive Energy.
         </p>
       </div>
     </div>
