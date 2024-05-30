@@ -22,18 +22,17 @@ export default function Home() {
               href="/blog"
               className={cn(buttonVariants({ size: "lg" }), "w-full sm:w-fit")}
             >
-             Positive Vibes
+              Positive Vibes
             </Link>
             <Link
               href={siteConfig.links.github}
-              target="_blank"
               rel="noreferrer"
               className={cn(
                 buttonVariants({ variant: "outline", size: "lg" }),
                 "w-full sm:w-fit"
               )}
             >
-              GitHub
+              Rfresh
             </Link>
           </div>
         </div>
