@@ -32,3 +32,5 @@ You can follow along with me as we build this on YouTube. The commits will line 
 Much of the design of this project is taken from shadcn in his projects, such as [shadcn/ui](https://ui.shadcn.com/) and [Taxonomy](https://tx.shadcn.com/)
 
 use the following words to write a catching content for the landing page of a blog on passivity and inspiration  'Free positives For Positive Vibes Only No Negative Energy Only Positive Energy'
+
+write a catching and humanly content for a blog on passivity and inspiration  using the following words 'Free positives For Positive Vibes Only No Negative Energy Only Positive Energy'

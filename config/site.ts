@@ -1,5 +1,5 @@
 export const siteConfig = {
-  name: "Free Positives Blog",
+  name: "Free Positives",
   url: "https://example.com",
   description:
     "Free positives For Positive Vibes Only No Negative Energy Only Positive Energy ",
