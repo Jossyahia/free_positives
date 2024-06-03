@@ -1,6 +1,7 @@
 import { posts } from "#site/content";
 import { PostItem } from "@/components/post-item";
 import { QueryPagination } from "@/components/query-pagination";
+import readingDuration from "reading-duration";
 import { Tag } from "@/components/tag";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { getAllTags, sortPosts, sortTagsByCount } from "@/lib/utils";
@@ -19,6 +20,13 @@ interface BlogPageProps {
   };
 }
 
+
+/*const readingTime = readingDuration(Content, {
+  wordsPerMinute: 100,
+  emoji: false,
+});
+*/
+  
 export default async function BlogPage({ searchParams }: BlogPageProps) {
   const currentPage = Number(searchParams?.page) || 1;
   const sortedPosts = sortPosts(posts.filter((post) => post.published));
