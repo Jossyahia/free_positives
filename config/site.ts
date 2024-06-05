@@ -1,6 +1,6 @@
 export const siteConfig = {
   name: "Free Positives",
-  url: "https://example.com",
+  url: "https://freepositives.netlify.app",
   description:
     "Free positives For Positive Vibes Only No Negative Energy Only Positive Energy ",
   author: "Free positives",
