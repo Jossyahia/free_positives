@@ -37,14 +37,14 @@ export function MobileNav() {
             About
           </MobileLink>
           <Link target="_blank" rel="noreferrer" href={siteConfig.links.github}>
-            GitHub
+            Rider
           </Link>
           <Link
             target="_blank"
             rel="noreferrer"
             href={siteConfig.links.twitter}
           >
-            Twitter
+            Food
           </Link>
         </div>
       </SheetContent>
