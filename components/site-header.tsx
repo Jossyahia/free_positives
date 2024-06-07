@@ -17,8 +17,7 @@ export function SiteHeader() {
         <div className="flex flex-1 items-center justify-end space-x-2">
           <nav className="flex items-center">
             <Link
-              href={siteConfig.links.github}
-              target="_blank"
+              href={"/booking"}
               rel="noreferrer"
             >
               <div
@@ -32,8 +31,7 @@ export function SiteHeader() {
               </div>
             </Link>
             <Link
-              href={siteConfig.links.twitter}
-              target="_blank"
+              href={"/food"}
               rel="noreferrer"
             >
               <div
@@ -43,7 +41,7 @@ export function SiteHeader() {
                 )}
               >
                 < Soup className="h-4 w-4" />
-                <span className="sr-only">Twitter</span>
+                <span className="sr-only">Food</span>
               </div>
             </Link>
             <ModeToggle />
