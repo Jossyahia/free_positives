@@ -6,11 +6,6 @@ import { TimePickerInput } from "@/components/time-picker/time-picker-input";
 import { TimePeriodSelect } from "@/components/time-picker/period-select";
 import { Period } from "@/components/time-picker/time-picker-utils";
 
-interface TimePickerDemoProps {
-  date: Date | undefined;
-  setDate: (date: Date | undefined) => void;
-}
-
 export default function TimePicker12Demo({ date, setDate }: TimePickerDemoProps) {
   const [period, setPeriod] = React.useState<Period>("PM");
 
